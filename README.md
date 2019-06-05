@@ -60,6 +60,9 @@ Assim que obter os dados, você deverá implementar os seguintes pontos:
 
 > Seu README.md deve conter as instruções necessárias para qualquer pessoa fazer seu projeto funcionar
 
+## Não conseguiu fazer tudo?
+A sua forma de priorizar a entrega também vai ser considerada. Escreva no README.md o que você conseguiu e não conseguiu implementar, descrevendo porque você preferiu priorizar desta maneira.
+
 ---
 
 Em caso de dúvidas, [abra uma issue](https://github.com/chaordic/frontend-intern-challenge/issues).
