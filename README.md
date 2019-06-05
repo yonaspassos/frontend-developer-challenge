@@ -14,7 +14,7 @@ O desafio consiste no *layout* de uma *landing page* com uma grade de produtos e
 
 **Link do layout**: https://xd.adobe.com/spec/aa1c5781-ecac-46c9-7032-b66139998404-dc2d/
 
-**Endpoint da API**: https://xxx?page=1
+**Endpoint da API**: https://frontend-intern-challenge-api-lfs47jhyg.now.sh/products?page=1
 
 ### Layout
 
@@ -24,7 +24,7 @@ Você terá que implementar o *layout* de acordo com esse **[mock](https://xd.ad
 
 ### Comportamento:
 
-Para preencher a página com as informações dos produtos, você terá que consultar esta **[API]()** de forma paginada, sendo que cada página consultada retornará as informações de **8 produtos** e um **link para a próxima página**.
+Para preencher a página com as informações dos produtos, você terá que consultar esta **[API](https://frontend-intern-challenge-api-lfs47jhyg.now.sh/products?page=1)** de forma paginada, sendo que cada página consultada retornará as informações de **8 produtos** e um **link para a próxima página**.
 
 Assim que obter os dados, você deverá implementar os seguintes pontos:
 
