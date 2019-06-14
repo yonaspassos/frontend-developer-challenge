@@ -1,4 +1,4 @@
-# Desafio de estágio | Frontend Developer
+# Desafio | Frontend Developer
 
 > **ATENÇÃO:** Antes de começar, se [cadastre na vaga](https://linxneemuchaordic.recruiterbox.com/) via Recruiterbox **=]**
 
@@ -29,7 +29,7 @@ Para preencher a página com as informações dos produtos, você terá que cons
 Assim que obter os dados, você deverá implementar os seguintes pontos:
 
 - Para cada **produto** retornado pela API, um **card de produto** com as respectivas informações deve ser criado na grade de produtos;
-- Ao clicar no botão **Ainda mais produtos aqui!** a próxima página da API deve ser consultada, gerando mais **8 produtos** na grade existente;
+- Ao clicar no botão **Ainda mais produtos aqui!** a próxima página da API deve ser consultada, gerando mais **8 produtos** na grade existente, abaixo dos produtos já carregados pela primeira requisição;
 - O formulário de *newsletter* com o título **Compartilhe a novidade** deve ter seus campos de *input* validados de acordo com o conteúdo (ex: O campo de email deve conter um email válido);
 
 ---
