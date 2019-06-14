@@ -44,7 +44,7 @@ Assim que obter os dados, você deverá implementar os seguintes pontos:
     - **[Heroku](https://www.heroku.com)**
     - **[Netifly](https://www.netlify.com/)**
     - Qualquer outro semelhante
-- Assim que concluir o seu desafio, abra um **[pull request](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork)** com suas alterações e com o link do *live preview* na descrição;
+- Assim que concluir o seu desafio, abra um **[pull request](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork)** para o [repositório do desafio](https://github.com/iurykrieger/frontend-developer-challenge) com suas alterações e com o link do *live preview* na descrição;
 
 ---
 
