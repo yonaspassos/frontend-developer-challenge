@@ -5,22 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Especial para você</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>uma seleção de produtos especial para você</h1>
-        <span>Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</span>
+        <h1>uma seleção de produtos <div class="spotlight">especial para você</div></h1>
+        <div class="text">Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</div>
         <nav>
             <ul>
-                <li>Conheça a Linx</li>
-                <li>Ajude o algorítimo</li>
-                <li>Seus produtos</li>
-                <li>Compartilhe</li>
+                <li><a href="#">Conheça a Linx</a></li>
+                <li><a href="#">Ajude o algorítimo</a></li>
+                <li><a href="#your-products">Seus produtos</a></li>
+                <li><a href="#newsletter">Compartilhe</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
+        <section id="your-products">
             <h2>Sua seleção especial</h2>
             <section>
                 <img />
@@ -32,7 +34,7 @@
                 <button>Comprar</button>
             </section>
         </section>
-        <section>
+        <section id="newsletter">
             <h2>Compartilhe a novidade</h2>
             <p>Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p>
             <p>
@@ -52,6 +54,17 @@
         <p>Testando suas habilidades em HTML, CSS e JS.</p>
         <p>Linx Impulse</p>
         <p>2019</p>
-    </footer>  
+    </footer>
+    <template id="product-card">
+        <section>
+            <img />
+            <h3></h3>
+            <p class="description"></p>
+            <p class="original-price"></p>
+            <b class="current-price"></b>
+            <p class="installments"></p>
+            <button>Comprar</button>
+        </section>
+    </template>    
 </body>
 </html>
