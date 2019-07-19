@@ -24,20 +24,20 @@
     <main>
         <section id="your-products">
             <h2>Sua seleção especial</h2>
-            <section>
+            <section class="product">
                 <img />
                 <h3>Nome do produto</h3>
                 <p>Descrição do produto um pouco maior, com duas linhas ou três que explica melhor do que se trata.</p>
-                <p>De: R$23,99</p>
+                <p class="price">De: R$23,99</p>
                 <b>Por: R$19,99</b>
-                <p>ou 2x de R$9,99</p>
+                <p class="price">ou 2x de R$9,99</p>
                 <button>Comprar</button>
             </section>
         </section>
         <section id="newsletter">
             <h2>Compartilhe a novidade</h2>
             <p>Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p>
-            <p>
+            <div>
                 <span>
                     <label for="name">Nome do seu amigo:</label>
                     <input type="text" id="name" />
@@ -46,25 +46,16 @@
                     <label for="email">E-mail</label>
                     <input type="email" id="email" />
                 </span>
-            </p>
+            </div>
             <button>Enviar agora</button>
         </section>
     </main>
     <footer>
-        <p>Testando suas habilidades em HTML, CSS e JS.</p>
-        <p>Linx Impulse</p>
-        <p>2019</p>
-    </footer>
-    <template id="product-card">
-        <section>
-            <img />
-            <h3></h3>
-            <p class="description"></p>
-            <p class="original-price"></p>
-            <b class="current-price"></b>
-            <p class="installments"></p>
-            <button>Comprar</button>
-        </section>
-    </template>    
+        <div>
+            <p>Testando suas habilidades em HTML, CSS e JS.</p>
+            <p>Linx Impulse</p>
+            <p>2019</p>
+        </div>
+    </footer>   
 </body>
 </html>
