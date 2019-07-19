@@ -59,6 +59,53 @@ header ul li:active {
     box-shadow: 6px 6px -6px -1px rgba(0,0,0,0.16); 
 }
 
+#newsletter {
+    margin: 44px;
+}
+
+#newsletter p {
+    font-size: 14px;
+}
+
+#newsletter > p {
+    margin: 40px;
+    text-align: center;
+}
+
+#newsletter div {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    margin: 0 20px;
+}
+
+#newsletter div span {
+    margin: 0 20px;
+}
+
+#newsletter div label {
+    display: block;
+}
+
+#newsletter div input {
+    width: 340px;
+    height: 30px;
+    margin: 7px 0;
+    border: 1px solid #707070;
+}
+
+#newsletter button {
+    width: 260px;
+    height: 40px;
+    margin: 50px auto;
+    display: block;
+    color: #888888;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
 footer {
     height: 200px;
     font-size: 12px;
