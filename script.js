@@ -1,4 +1,4 @@
-var nextPage = '//frontend-intern-challenge-api.iurykrieger.now.sh/products?page=1';
+var nextPage = 'https://frontend-intern-challenge-api.iurykrieger.now.sh/products?page=1';
 
 window.onload = function() {
     getProducts(nextPage);
@@ -7,12 +7,12 @@ window.onload = function() {
 function getProducts(url) {
     request(url, function(responseText) {
         var data = JSON.parse(responseText);
-        nextPage = `//${data.nextPage}`;
+        nextPage = `https://${data.nextPage}`;
         var template = document.getElementById("product-card");
         var productsWrapper = document.getElementById("products-wrapper");
         data.products.forEach(function(product) {
             var element = document.importNode(template.content, true);
-            element.querySelector("img").src = product.image;
+            element.querySelector("img").src = `https://${product.image}`;
             element.querySelector("h3").innerHTML = product.name;
             element.querySelector(".description").innerHTML = product.description;
             element.querySelector(".old-price").innerHTML = `De: R$${product.oldPrice.toFixed(2)}`;
