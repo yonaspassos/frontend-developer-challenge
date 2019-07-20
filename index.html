@@ -24,16 +24,11 @@
     <main>
         <section id="your-products">
             <h2>Sua seleção especial</h2>
-            <section class="product">
-                <img src="https://imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6670538" />
-                <h3>Nome do produto</h3>
-                <p>Descrição do produto um pouco maior, com duas linhas ou três que explica melhor do que se trata.</p>
-                <p class="price">De: R$23,99</p>
-                <b>Por: R$19,99</b>
-                <p class="price">ou 2x de R$9,99</p>
-                <button>Comprar</button>
-            </section>
+            <div id="products-wrapper">
+                
+            </div>
         </section>
+        <button id="next-page" onclick="getProducts(nextPage)">Ainda mais produtos aqui!</button>
         <section id="newsletter">
             <h2>Compartilhe a novidade</h2>
             <p>Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p>
@@ -56,6 +51,18 @@
             <p>Linx Impulse</p>
             <p>2019</p>
         </div>
-    </footer>   
+    </footer>
+    <template id="product-card">
+            <section class="product">
+                <img src="https://imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6670538" />
+                <h3></h3>
+                <p class="description"></p>
+                <p class="price old-price">De: R$23,99</p>
+                <b class="current-price">Por: R$19,99</b>
+                <p class="price installments">ou 2x de R$9,99</p>
+                <button>Comprar</button>
+            </section>
+    </template>
+    <script src="script.js"></script>
 </body>
 </html>
