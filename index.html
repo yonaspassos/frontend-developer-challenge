@@ -21,7 +21,7 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="container">
         <section id="your-products">
             <h2>Sua seleção especial</h2>
             <div id="products-wrapper">
@@ -32,17 +32,19 @@
         <section id="newsletter">
             <h2>Compartilhe a novidade</h2>
             <p>Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p>
-            <div>
-                <span>
-                    <label for="name">Nome do seu amigo:</label>
-                    <input type="text" id="name" />
-                </span>
-                <span>
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email" />
-                </span>
-            </div>
-            <button>Enviar agora</button>
+            <form id="newsletter-form">
+                <div>
+                    <span>
+                        <label for="name">Nome do seu amigo:</label>
+                        <input type="text" id="name" required />
+                    </span>
+                    <span>
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" required />
+                    </span>
+                </div>
+                <button type="submit">Enviar agora</button>
+            </form>
         </section>
     </main>
     <footer>
