@@ -59,6 +59,48 @@ header ul li:active {
     box-shadow: 6px 6px -6px -1px rgba(0,0,0,0.16); 
 }
 
+section h2 {
+    font-size: 18px;
+    padding: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+main .product {
+    width: 200px;
+    height: 150px;
+    margin: 120px;
+}
+
+main .product img {
+    border: 4px 0;
+}
+
+main .product h3 {
+    margin:10px 0;
+}
+
+main .product p {
+    font-size: 12px;
+}
+
+main section .price {
+    font-size: 12px;
+    margin-top:7px;
+    margin-bottom: 7px; 
+}
+
+main .product button {
+    width: 200px;
+    height: 30px;
+    color: #888888;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 3px;
+}
+
 #newsletter {
     margin: 44px;
 }
