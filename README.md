@@ -9,7 +9,9 @@ Consiste em uma página HTML seguindo um mockup fornecido.
 
 ### Arquitetura
 
-Como o projeto consistia apenas de uma página simples, fazendo uma chamada para API, decidi por não adicionar nenhuma dependencia externa (libs, frameworks, etc), utilizando somente JavaScript puro, CSS e HTML.
+Como o projeto consistia apenas de uma página simples, fazendo uma chamada para API, decidi por não adicionar nenhuma dependencia externa (libs, frameworks, etc), utilizando somente JavaScript puro, CSS e HTML. Com foi possivel atingir um bom score no pagespeed/lighthouse, veja a imagem a seguir:
+
+![Pagespeed Score](pagespeed_score.png)
 
 ### Tecnologias
 
