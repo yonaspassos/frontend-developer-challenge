@@ -1,5 +1,7 @@
 # Desafio | Frontend Developer (Yoná Silveira)
 
+> Projeto disponivel [aqui](https://especial-para-voce.netlify.com/).
+
 ## Sobre o projeto
 
 Projeto desenvolvido para a vaga de estágio front-end na Linx.
