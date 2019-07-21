@@ -19,7 +19,7 @@ Como o projeto consistia apenas de uma página simples, fazendo uma chamada para
 ### Evoluções
 
 - Adicionar tratamento de erros nas respostas da API.
-- Alterar funcionamento do botão "Ainda mais produtos!", para evitar *race conditions*.
+- ~~Alterar funcionamento do botão "Ainda mais produtos!", para evitar *race conditions*.~~
 - Tornar regras do CSS mais reutilizaveis.
 - Utilizar variáveis CSS para tornar a configuração das cores do layout mais simples.
 

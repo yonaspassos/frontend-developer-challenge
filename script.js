@@ -5,7 +5,12 @@ window.onload = function() {
 };
 
 function getProducts(url) {
+    var button = document.getElementById("next-page");
+    button.disabled = true;
+    button.innerHTML = "Carregando...";
     request(url, function(responseText) {
+        button.disabled = false;
+        button.innerHTML = "Ainda mais produtos aqui!";
         var data = JSON.parse(responseText);
         nextPage = `https://${data.nextPage}`;
         var template = document.getElementById("product-card");
